@@ -47,7 +47,7 @@ extension UIButton {
      - note: Both the `progressBlock` and `completionHandler` will be invoked in main thread.
      The `CallbackDispatchQueue` specified in `optionsInfo` will not be used in callbacks of this method.
      */
-    public func kf_setImageWithURL(URL: NSURL,
+    public func okf_setImageWithURL(URL: NSURL,
                                    forState state: UIControlState,
                                             placeholderImage: UIImage? = nil,
                                             optionsInfo: KingfisherOptionsInfo? = nil,
