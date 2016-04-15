@@ -56,7 +56,7 @@ extension ImageView {
      The `CallbackDispatchQueue` specified in `optionsInfo` will not be used in callbacks of this method.
      */
     
-    public func kf_setImageWithURL(URL: NSURL,
+    public func okf_setImageWithURL(URL: NSURL,
                                    placeholderImage: Image? = nil,
                                    optionsInfo: KingfisherOptionsInfo? = nil,
                                    progressBlock: DownloadProgressBlock? = nil,
