@@ -196,7 +196,7 @@ func ImageGIFRepresentation(image: Image, duration: NSTimeInterval, repeatCount:
 }
 
 extension Image {
-    static func kf_animatedImageWithGIFData(gifData data: NSData) -> Image? {
+    public static func kf_animatedImageWithGIFData(gifData data: NSData) -> Image? {
         return kf_animatedImageWithGIFData(gifData: data, scale: 1.0, duration: 0.0)
     }
     
